@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int arr[] = {10,20,30,40};
+    int a = 10;
+    int *p = &a;
+    cout << "val of ptr before increment: "<< p << endl;
+    *p++;
+    cout << "val of a: "<< a << endl;
+    cout << "Address of a|: "<< &a << endl;
+    cout << "val of ptr: "<< p << endl;
+    cout << "Address of ptr: "<< &p << endl;
+    
+    return 0;
+}
